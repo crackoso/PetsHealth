@@ -1,0 +1,45 @@
+Usuario:
+  columns:
+    nombre:            { type: string(100), notnull: true }
+    email:             { type: string(100), notnull: true, unique: true }
+    usuario:           { type: string(20), notnull: true }
+    password:          { type: string(40), notnull: true }
+    version:           { type: string(10), notnull: true }
+    mailing:           { type: boolean, default: true }
+    idioma:            { type: string(15), notnull: false }
+
+Mascota:
+  columns:
+    usuario_id:        { type: BIGINT, notnull: true }
+    nombre:            { type: string(100), notnull: true }
+    fechaNacimiento:   { type: date, notnull: false }
+    especie:           { type: string(20), notnull: false }
+    raza:              { type: string(20), notnull: false}
+    tamano:            { type: int(1), notnull: false}
+    sexo:              { type: int(1), notnull: false}
+  relations:
+    Usuario:           { local: usuario_id, foreign: id, onDelete: Cascade }
+
+Vacuna:
+  columns:
+    mascota_id:        { type: BIGINT, notnull: true }
+    vacuna:            { type: string(30), notnull: true }
+    fechaAplicacion:   { type: date, notnull: false }
+  relations:
+    Mascota:           { local: mascota_id, foreign: id, onDelete: Cascade }
+
+Alergia:
+  columns:
+    mascota_id:        { type: BIGINT, notnull: true }
+    alergia:           { type: string(50), notnull: true }
+  relations:
+    Mascota:           { local: mascota_id, foreign: id, onDelete: Cascade }
+
+Enfermedad:
+  columns:
+    mascota_id:        { type: BIGINT, notnull: true }
+    enfermedad:        { type: string(50), notnull: true }
+    tratamiento:       { type: string(500), notnull: false }
+    fecha:             { type: date, notnull: false }
+  relations:
+    Mascota:           { local: mascota_id, foreign: id, onDelete: Cascade }

@@ -1,0 +1,1694 @@
+Feb 06 17:37:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 06 17:37:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:37:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:37:27 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 06 17:37:27 symfony [err] {sfException} Call to undefined method sfWebRequest::getParamater.
+Feb 06 17:37:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 06 17:37:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 06 17:37:27 symfony [info] {sfWebDebugLogger} Configuration 39.92 ms (8)
+Feb 06 17:37:27 symfony [info] {sfWebDebugLogger} Factories 34.93 ms (1)
+Feb 06 17:37:27 symfony [info] {sfWebDebugLogger} Action "mascota/json" 18.34 ms (1)
+Feb 06 17:44:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 06 17:44:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:44:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:44:54 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 06 17:44:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 17:44:54 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m WHERE (m.id = ?) LIMIT 1 - (1)
+Feb 06 17:45:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 06 17:45:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:45:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:45:13 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 06 17:45:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 17:45:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m WHERE (m.id = ?) LIMIT 1 - (1)
+Feb 06 17:45:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 06 17:45:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:45:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:45:14 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 06 17:45:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 17:45:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m WHERE (m.id = ?) LIMIT 1 - (1)
+Feb 06 17:45:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 06 17:45:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:45:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:45:48 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 06 17:45:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 17:45:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m WHERE (m.id = ?) LIMIT 1 - (1)
+Feb 06 17:45:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 06 17:45:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:45:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:45:49 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 06 17:45:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 17:45:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m WHERE (m.id = ?) LIMIT 1 - (1)
+Feb 06 17:54:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 06 17:54:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:54:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:54:46 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 06 17:54:46 symfony [err] {sfException} Call to undefined method sfWebRequest::getParamater.
+Feb 06 17:54:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 06 17:54:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 06 17:54:46 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (8)
+Feb 06 17:54:46 symfony [info] {sfWebDebugLogger} Factories 15.25 ms (1)
+Feb 06 17:54:46 symfony [info] {sfWebDebugLogger} Action "mascota/json" 19.41 ms (1)
+Feb 06 17:54:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 06 17:54:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:54:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:54:59 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 06 17:54:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 17:54:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 06 17:54:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 06 17:54:59 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 06 17:54:59 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (8)
+Feb 06 17:54:59 symfony [info] {sfWebDebugLogger} Factories 14.69 ms (1)
+Feb 06 17:54:59 symfony [info] {sfWebDebugLogger} Action "mascota/json" 17.98 ms (1)
+Feb 06 17:54:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.72 ms (2)
+Feb 06 17:54:59 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.00 ms (1)
+Feb 06 17:54:59 symfony [info] {sfWebResponse} Send content (2 o)
+Feb 06 17:55:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/show/id/1 with parameters array (  'module' => 'mascota',  'action' => 'show',  'id' => '1',)
+Feb 06 17:55:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:55:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:55:25 symfony [info] {mascotaActions} Call "mascotaActions->executeShow()"
+Feb 06 17:55:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 17:55:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m WHERE (m.id = ?) LIMIT 1 - (1)
+Feb 06 17:55:25 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "mascota/show".
+Feb 06 17:55:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Feb 06 17:55:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 06 17:55:25 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (8)
+Feb 06 17:55:25 symfony [info] {sfWebDebugLogger} Factories 14.31 ms (1)
+Feb 06 17:55:25 symfony [info] {sfWebDebugLogger} Action "mascota/show" 35.98 ms (1)
+Feb 06 17:55:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.45 ms (2)
+Feb 06 17:55:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /mascota with parameters array (  'module' => 'mascota',  'action' => 'index',)
+Feb 06 17:55:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:55:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:55:33 symfony [info] {mascotaActions} Call "mascotaActions->executeIndex()"
+Feb 06 17:55:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 17:55:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 06 17:55:33 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/indexSuccess.php"
+Feb 06 17:55:33 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 06 17:55:33 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 06 17:55:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 06 17:55:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 06 17:55:33 symfony [info] {sfWebDebugLogger} Configuration 22.91 ms (10)
+Feb 06 17:55:33 symfony [info] {sfWebDebugLogger} Factories 15.44 ms (1)
+Feb 06 17:55:33 symfony [info] {sfWebDebugLogger} Action "mascota/index" 15.94 ms (1)
+Feb 06 17:55:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.78 ms (2)
+Feb 06 17:55:33 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/index" 37.43 ms (1)
+Feb 06 17:55:33 symfony [info] {sfWebResponse} Send content (32459 o)
+Feb 06 17:55:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/new with parameters array (  'module' => 'mascota',  'action' => 'new',)
+Feb 06 17:55:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 17:55:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 17:55:38 symfony [info] {mascotaActions} Call "mascotaActions->executeNew()"
+Feb 06 17:55:38 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/newSuccess.php"
+Feb 06 17:55:38 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/_form.php"
+Feb 06 17:55:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 17:55:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u - ()
+Feb 06 17:55:38 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 06 17:55:38 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 06 17:55:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 06 17:55:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 06 17:55:38 symfony [info] {sfWebDebugLogger} Configuration 0.71 ms (9)
+Feb 06 17:55:38 symfony [info] {sfWebDebugLogger} Factories 15.52 ms (1)
+Feb 06 17:55:38 symfony [info] {sfWebDebugLogger} Action "mascota/new" 112.27 ms (1)
+Feb 06 17:55:38 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/new" 88.74 ms (1)
+Feb 06 17:55:38 symfony [info] {sfWebDebugLogger} Partial "mascota/_form" 21.72 ms (1)
+Feb 06 17:55:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.38 ms (2)
+Feb 06 17:55:38 symfony [info] {sfWebResponse} Send content (42324 o)
+Feb 06 19:52:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/new with parameters array (  'module' => 'mascota',  'action' => 'new',)
+Feb 06 19:52:30 symfony [info] {myUser} Automatic user logout due to timeout
+Feb 06 19:52:30 symfony [info] {myUser} User is not authenticated
+Feb 06 19:52:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 06 19:52:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 06 19:52:30 symfony [info] {mascotaActions} Call "mascotaActions->executeNew()"
+Feb 06 19:52:31 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/newSuccess.php"
+Feb 06 19:52:31 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/_form.php"
+Feb 06 19:52:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 06 19:52:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u - ()
+Feb 06 19:52:31 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 06 19:52:31 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 06 19:52:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 06 19:52:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 06 19:52:31 symfony [info] {sfWebDebugLogger} Configuration 1.37 ms (9)
+Feb 06 19:52:31 symfony [info] {sfWebDebugLogger} Factories 576.49 ms (1)
+Feb 06 19:52:31 symfony [info] {sfWebDebugLogger} Action "mascota/new" 158.08 ms (1)
+Feb 06 19:52:31 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/new" 92.49 ms (1)
+Feb 06 19:52:31 symfony [info] {sfWebDebugLogger} Partial "mascota/_form" 67.13 ms (1)
+Feb 06 19:52:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 23.99 ms (2)
+Feb 06 19:52:31 symfony [info] {sfWebResponse} Send content (43065 o)
+Feb 07 08:28:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/new with parameters array (  'module' => 'mascota',  'action' => 'new',)
+Feb 07 08:28:51 symfony [info] {myUser} Automatic user logout due to timeout
+Feb 07 08:28:51 symfony [info] {myUser} User is not authenticated
+Feb 07 08:28:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 07 08:28:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 07 08:28:51 symfony [info] {mascotaActions} Call "mascotaActions->executeNew()"
+Feb 07 08:28:51 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/newSuccess.php"
+Feb 07 08:28:51 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/_form.php"
+Feb 07 08:28:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 07 08:28:51 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u - ()
+Feb 07 08:28:51 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 07 08:28:51 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 07 08:28:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 07 08:28:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 07 08:28:51 symfony [info] {sfWebDebugLogger} Configuration 1.11 ms (9)
+Feb 07 08:28:51 symfony [info] {sfWebDebugLogger} Factories 72.74 ms (1)
+Feb 07 08:28:51 symfony [info] {sfWebDebugLogger} Action "mascota/new" 43.90 ms (1)
+Feb 07 08:28:51 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/new" 112.33 ms (1)
+Feb 07 08:28:51 symfony [info] {sfWebDebugLogger} Partial "mascota/_form" 99.32 ms (1)
+Feb 07 08:28:51 symfony [info] {sfWebDebugLogger} Database (Doctrine) 73.94 ms (2)
+Feb 07 08:28:51 symfony [info] {sfWebResponse} Send content (43067 o)
+Feb 14 00:47:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/new with parameters array (  'module' => 'mascota',  'action' => 'new',)
+Feb 14 00:47:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:47:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:47:55 symfony [info] {mascotaActions} Call "mascotaActions->executeNew()"
+Feb 14 00:47:55 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/newSuccess.php"
+Feb 14 00:47:55 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/_form.php"
+Feb 14 00:47:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:47:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u - ()
+Feb 14 00:47:55 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:47:55 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:47:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:47:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:47:55 symfony [info] {sfWebDebugLogger} Configuration 1.45 ms (9)
+Feb 14 00:47:55 symfony [info] {sfWebDebugLogger} Factories 53.82 ms (1)
+Feb 14 00:47:55 symfony [info] {sfWebDebugLogger} Action "mascota/new" 13.62 ms (1)
+Feb 14 00:47:55 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/new" 41.09 ms (1)
+Feb 14 00:47:55 symfony [info] {sfWebDebugLogger} Partial "mascota/_form" 16.04 ms (1)
+Feb 14 00:47:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.37 ms (2)
+Feb 14 00:47:55 symfony [info] {sfWebResponse} Send content (41426 o)
+Feb 14 00:47:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/create with parameters array (  'module' => 'mascota',  'action' => 'create',)
+Feb 14 00:47:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:47:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:47:58 symfony [info] {mascotaActions} Call "mascotaActions->executeCreate()"
+Feb 14 00:47:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:47:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM usuario u WHERE u.id = ? - (1)
+Feb 14 00:47:58 symfony [info] {mascotaActions} Change template to "CURRENT/new"
+Feb 14 00:47:58 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/newSuccess.php"
+Feb 14 00:47:58 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/_form.php"
+Feb 14 00:47:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u - ()
+Feb 14 00:47:58 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:47:58 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:47:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:47:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:47:58 symfony [info] {sfWebDebugLogger} Configuration 0.57 ms (9)
+Feb 14 00:47:58 symfony [info] {sfWebDebugLogger} Factories 17.68 ms (1)
+Feb 14 00:47:58 symfony [info] {sfWebDebugLogger} Action "mascota/create" 24.39 ms (1)
+Feb 14 00:47:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.67 ms (3)
+Feb 14 00:47:58 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/create" 14.25 ms (1)
+Feb 14 00:47:58 symfony [info] {sfWebDebugLogger} Partial "mascota/_form" 8.67 ms (1)
+Feb 14 00:47:58 symfony [info] {sfWebResponse} Send content (44264 o)
+Feb 14 00:48:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/create with parameters array (  'module' => 'mascota',  'action' => 'create',)
+Feb 14 00:48:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:48:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:48:02 symfony [info] {mascotaActions} Call "mascotaActions->executeCreate()"
+Feb 14 00:48:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:48:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM usuario u WHERE u.id = ? - (1)
+Feb 14 00:48:02 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO mascota (usuario_id, nombre, especie, raza, tamano, sexo) VALUES (?, ?, ?, ?, ?, ?) - (1, koikita, , , , )
+Feb 14 00:48:02 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'tamano' at row 1
+Feb 14 00:48:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:48:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:48:02 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (8)
+Feb 14 00:48:02 symfony [info] {sfWebDebugLogger} Factories 15.49 ms (1)
+Feb 14 00:48:02 symfony [info] {sfWebDebugLogger} Action "mascota/create" 73.18 ms (1)
+Feb 14 00:48:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.37 ms (2)
+Feb 14 00:48:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/new with parameters array (  'module' => 'mascota',  'action' => 'new',)
+Feb 14 00:48:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:48:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:48:09 symfony [info] {mascotaActions} Call "mascotaActions->executeNew()"
+Feb 14 00:48:09 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/newSuccess.php"
+Feb 14 00:48:09 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/_form.php"
+Feb 14 00:48:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:48:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u - ()
+Feb 14 00:48:09 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:09 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:48:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:48:09 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (9)
+Feb 14 00:48:09 symfony [info] {sfWebDebugLogger} Factories 15.01 ms (1)
+Feb 14 00:48:09 symfony [info] {sfWebDebugLogger} Action "mascota/new" 13.35 ms (1)
+Feb 14 00:48:09 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/new" 25.32 ms (1)
+Feb 14 00:48:09 symfony [info] {sfWebDebugLogger} Partial "mascota/_form" 19.53 ms (1)
+Feb 14 00:48:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.47 ms (2)
+Feb 14 00:48:09 symfony [info] {sfWebResponse} Send content (41427 o)
+Feb 14 00:48:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/create with parameters array (  'module' => 'mascota',  'action' => 'create',)
+Feb 14 00:48:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:48:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:48:36 symfony [info] {mascotaActions} Call "mascotaActions->executeCreate()"
+Feb 14 00:48:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:48:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM usuario u WHERE u.id = ? - (1)
+Feb 14 00:48:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO mascota (usuario_id, nombre, fechanacimiento, especie, raza, tamano, sexo) VALUES (?, ?, ?, ?, ?, ?, ?) - (1, koikita, 2009-01-03, perro, pit bull, 0, 0)
+Feb 14 00:48:36 symfony [info] {sfFrontWebController} Redirect to "http://localhost/petshealth/web/frontend_dev.php/mascota/edit/id/1"
+Feb 14 00:48:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 14 00:48:36 symfony [info] {sfWebResponse} Send header "Location: http://localhost/petshealth/web/frontend_dev.php/mascota/edit/id/1"
+Feb 14 00:48:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:48:36 symfony [info] {sfWebDebugLogger} Configuration 0.58 ms (8)
+Feb 14 00:48:36 symfony [info] {sfWebDebugLogger} Factories 16.11 ms (1)
+Feb 14 00:48:36 symfony [info] {sfWebDebugLogger} Action "mascota/create" 126.84 ms (1)
+Feb 14 00:48:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 92.95 ms (3)
+Feb 14 00:48:36 symfony [info] {sfWebResponse} Send content (137 o)
+Feb 14 00:48:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/edit/id/1 with parameters array (  'module' => 'mascota',  'action' => 'edit',  'id' => '1',)
+Feb 14 00:48:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:48:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:48:36 symfony [info] {mascotaActions} Call "mascotaActions->executeEdit()"
+Feb 14 00:48:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:48:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m WHERE (m.id = ?) LIMIT 1 - (1)
+Feb 14 00:48:36 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/editSuccess.php"
+Feb 14 00:48:36 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/_form.php"
+Feb 14 00:48:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u - ()
+Feb 14 00:48:37 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:37 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:48:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:48:37 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (9)
+Feb 14 00:48:37 symfony [info] {sfWebDebugLogger} Factories 14.91 ms (1)
+Feb 14 00:48:37 symfony [info] {sfWebDebugLogger} Action "mascota/edit" 25.36 ms (1)
+Feb 14 00:48:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.85 ms (3)
+Feb 14 00:48:37 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/edit" 31.87 ms (1)
+Feb 14 00:48:37 symfony [info] {sfWebDebugLogger} Partial "mascota/_form" 10.80 ms (1)
+Feb 14 00:48:37 symfony [info] {sfWebResponse} Send content (44606 o)
+Feb 14 00:48:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /mascota with parameters array (  'module' => 'mascota',  'action' => 'index',)
+Feb 14 00:48:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:48:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:48:48 symfony [info] {mascotaActions} Call "mascotaActions->executeIndex()"
+Feb 14 00:48:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:48:48 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:48:48 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/mascota/templates/indexSuccess.php"
+Feb 14 00:48:48 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:48 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:48:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:48:48 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (9)
+Feb 14 00:48:48 symfony [info] {sfWebDebugLogger} Factories 15.55 ms (1)
+Feb 14 00:48:48 symfony [info] {sfWebDebugLogger} Action "mascota/index" 15.34 ms (1)
+Feb 14 00:48:48 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.34 ms (2)
+Feb 14 00:48:48 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/index" 6.37 ms (1)
+Feb 14 00:48:48 symfony [info] {sfWebResponse} Send content (32800 o)
+Feb 14 00:48:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /vacuna with parameters array (  'module' => 'vacuna',  'action' => 'index',)
+Feb 14 00:48:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:48:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:48:56 symfony [info] {vacunaActions} Call "vacunaActions->executeIndex()"
+Feb 14 00:48:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:48:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM vacuna v - ()
+Feb 14 00:48:56 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/indexSuccess.php"
+Feb 14 00:48:56 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:56 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:48:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:48:56 symfony [info] {sfWebDebugLogger} Configuration 94.14 ms (10)
+Feb 14 00:48:56 symfony [info] {sfWebDebugLogger} Factories 15.05 ms (1)
+Feb 14 00:48:56 symfony [info] {sfWebDebugLogger} Action "vacuna/index" 79.30 ms (1)
+Feb 14 00:48:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 39.30 ms (2)
+Feb 14 00:48:56 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/index" 7.63 ms (1)
+Feb 14 00:48:56 symfony [info] {sfWebResponse} Send content (31864 o)
+Feb 14 00:48:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vacuna/new with parameters array (  'module' => 'vacuna',  'action' => 'new',)
+Feb 14 00:48:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:48:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:48:59 symfony [info] {vacunaActions} Call "vacunaActions->executeNew()"
+Feb 14 00:48:59 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/newSuccess.php"
+Feb 14 00:48:59 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/_form.php"
+Feb 14 00:48:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:48:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:48:59 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:59 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:48:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:48:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:48:59 symfony [info] {sfWebDebugLogger} Configuration 0.64 ms (9)
+Feb 14 00:48:59 symfony [info] {sfWebDebugLogger} Factories 15.52 ms (1)
+Feb 14 00:48:59 symfony [info] {sfWebDebugLogger} Action "vacuna/new" 13.94 ms (1)
+Feb 14 00:48:59 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/new" 27.16 ms (1)
+Feb 14 00:48:59 symfony [info] {sfWebDebugLogger} Partial "vacuna/_form" 21.50 ms (1)
+Feb 14 00:48:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.36 ms (2)
+Feb 14 00:48:59 symfony [info] {sfWebResponse} Send content (39261 o)
+Feb 14 00:49:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vacuna/create with parameters array (  'module' => 'vacuna',  'action' => 'create',)
+Feb 14 00:49:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:07 symfony [info] {vacunaActions} Call "vacunaActions->executeCreate()"
+Feb 14 00:49:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:07 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM mascota m WHERE m.id = ? - (1)
+Feb 14 00:49:07 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO vacuna (mascota_id, vacuna, fechaaplicacion) VALUES (?, ?, ?) - (1, antirrabica, 2010-04-02)
+Feb 14 00:49:07 symfony [info] {sfFrontWebController} Redirect to "http://localhost/petshealth/web/frontend_dev.php/vacuna/edit/id/1"
+Feb 14 00:49:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 14 00:49:07 symfony [info] {sfWebResponse} Send header "Location: http://localhost/petshealth/web/frontend_dev.php/vacuna/edit/id/1"
+Feb 14 00:49:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (8)
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} Factories 15.68 ms (1)
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} Action "vacuna/create" 32.11 ms (1)
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.80 ms (3)
+Feb 14 00:49:07 symfony [info] {sfWebResponse} Send content (136 o)
+Feb 14 00:49:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vacuna/edit/id/1 with parameters array (  'module' => 'vacuna',  'action' => 'edit',  'id' => '1',)
+Feb 14 00:49:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:07 symfony [info] {vacunaActions} Call "vacunaActions->executeEdit()"
+Feb 14 00:49:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:07 symfony [info] {Doctrine_Connection_Statement} execute : SELECT v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM vacuna v WHERE (v.id = ?) LIMIT 1 - (1)
+Feb 14 00:49:07 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/editSuccess.php"
+Feb 14 00:49:07 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/_form.php"
+Feb 14 00:49:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:49:07 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:07 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:49:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} Configuration 0.55 ms (9)
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} Factories 15.10 ms (1)
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} Action "vacuna/edit" 25.17 ms (1)
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.70 ms (3)
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/edit" 14.70 ms (1)
+Feb 14 00:49:07 symfony [info] {sfWebDebugLogger} Partial "vacuna/_form" 8.80 ms (1)
+Feb 14 00:49:07 symfony [info] {sfWebResponse} Send content (41821 o)
+Feb 14 00:49:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /vacuna with parameters array (  'module' => 'vacuna',  'action' => 'index',)
+Feb 14 00:49:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:08 symfony [info] {vacunaActions} Call "vacunaActions->executeIndex()"
+Feb 14 00:49:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM vacuna v - ()
+Feb 14 00:49:08 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/indexSuccess.php"
+Feb 14 00:49:08 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:08 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:49:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:08 symfony [info] {sfWebDebugLogger} Configuration 0.71 ms (9)
+Feb 14 00:49:08 symfony [info] {sfWebDebugLogger} Factories 15.31 ms (1)
+Feb 14 00:49:08 symfony [info] {sfWebDebugLogger} Action "vacuna/index" 17.54 ms (1)
+Feb 14 00:49:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.63 ms (2)
+Feb 14 00:49:08 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/index" 7.92 ms (1)
+Feb 14 00:49:08 symfony [info] {sfWebResponse} Send content (32129 o)
+Feb 14 00:49:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vacuna/new with parameters array (  'module' => 'vacuna',  'action' => 'new',)
+Feb 14 00:49:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:09 symfony [info] {vacunaActions} Call "vacunaActions->executeNew()"
+Feb 14 00:49:09 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/newSuccess.php"
+Feb 14 00:49:09 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/_form.php"
+Feb 14 00:49:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:49:09 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:09 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:49:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:09 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (9)
+Feb 14 00:49:09 symfony [info] {sfWebDebugLogger} Factories 16.05 ms (1)
+Feb 14 00:49:09 symfony [info] {sfWebDebugLogger} Action "vacuna/new" 13.08 ms (1)
+Feb 14 00:49:09 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/new" 25.18 ms (1)
+Feb 14 00:49:09 symfony [info] {sfWebDebugLogger} Partial "vacuna/_form" 20.19 ms (1)
+Feb 14 00:49:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.48 ms (2)
+Feb 14 00:49:09 symfony [info] {sfWebResponse} Send content (39261 o)
+Feb 14 00:49:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vacuna/create with parameters array (  'module' => 'vacuna',  'action' => 'create',)
+Feb 14 00:49:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:18 symfony [info] {vacunaActions} Call "vacunaActions->executeCreate()"
+Feb 14 00:49:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM mascota m WHERE m.id = ? - (1)
+Feb 14 00:49:18 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO vacuna (mascota_id, vacuna, fechaaplicacion) VALUES (?, ?, ?) - (1, Hepatitis, 2010-06-03)
+Feb 14 00:49:18 symfony [info] {sfFrontWebController} Redirect to "http://localhost/petshealth/web/frontend_dev.php/vacuna/edit/id/2"
+Feb 14 00:49:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 14 00:49:18 symfony [info] {sfWebResponse} Send header "Location: http://localhost/petshealth/web/frontend_dev.php/vacuna/edit/id/2"
+Feb 14 00:49:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} Configuration 0.52 ms (8)
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} Factories 15.71 ms (1)
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} Action "vacuna/create" 117.64 ms (1)
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.60 ms (3)
+Feb 14 00:49:18 symfony [info] {sfWebResponse} Send content (136 o)
+Feb 14 00:49:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vacuna/edit/id/2 with parameters array (  'module' => 'vacuna',  'action' => 'edit',  'id' => '2',)
+Feb 14 00:49:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:18 symfony [info] {vacunaActions} Call "vacunaActions->executeEdit()"
+Feb 14 00:49:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM vacuna v WHERE (v.id = ?) LIMIT 1 - (2)
+Feb 14 00:49:18 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/editSuccess.php"
+Feb 14 00:49:18 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/_form.php"
+Feb 14 00:49:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:49:18 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:18 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:49:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (9)
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} Factories 14.55 ms (1)
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} Action "vacuna/edit" 29.40 ms (1)
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.90 ms (3)
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/edit" 16.06 ms (1)
+Feb 14 00:49:18 symfony [info] {sfWebDebugLogger} Partial "vacuna/_form" 10.12 ms (1)
+Feb 14 00:49:18 symfony [info] {sfWebResponse} Send content (41820 o)
+Feb 14 00:49:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /vacuna with parameters array (  'module' => 'vacuna',  'action' => 'index',)
+Feb 14 00:49:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:19 symfony [info] {vacunaActions} Call "vacunaActions->executeIndex()"
+Feb 14 00:49:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:19 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM vacuna v - ()
+Feb 14 00:49:19 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/indexSuccess.php"
+Feb 14 00:49:19 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:19 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:49:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:19 symfony [info] {sfWebDebugLogger} Configuration 0.57 ms (9)
+Feb 14 00:49:19 symfony [info] {sfWebDebugLogger} Factories 15.51 ms (1)
+Feb 14 00:49:19 symfony [info] {sfWebDebugLogger} Action "vacuna/index" 14.77 ms (1)
+Feb 14 00:49:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.30 ms (2)
+Feb 14 00:49:19 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/index" 6.50 ms (1)
+Feb 14 00:49:19 symfony [info] {sfWebResponse} Send content (32301 o)
+Feb 14 00:49:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vacuna/new with parameters array (  'module' => 'vacuna',  'action' => 'new',)
+Feb 14 00:49:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:21 symfony [info] {vacunaActions} Call "vacunaActions->executeNew()"
+Feb 14 00:49:21 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/newSuccess.php"
+Feb 14 00:49:21 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/_form.php"
+Feb 14 00:49:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:49:21 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:21 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:49:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:21 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (9)
+Feb 14 00:49:21 symfony [info] {sfWebDebugLogger} Factories 14.94 ms (1)
+Feb 14 00:49:21 symfony [info] {sfWebDebugLogger} Action "vacuna/new" 12.63 ms (1)
+Feb 14 00:49:21 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/new" 21.82 ms (1)
+Feb 14 00:49:21 symfony [info] {sfWebDebugLogger} Partial "vacuna/_form" 16.75 ms (1)
+Feb 14 00:49:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.61 ms (2)
+Feb 14 00:49:21 symfony [info] {sfWebResponse} Send content (39261 o)
+Feb 14 00:49:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vacuna/create with parameters array (  'module' => 'vacuna',  'action' => 'create',)
+Feb 14 00:49:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:33 symfony [info] {vacunaActions} Call "vacunaActions->executeCreate()"
+Feb 14 00:49:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM mascota m WHERE m.id = ? - (1)
+Feb 14 00:49:33 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO vacuna (mascota_id, vacuna, fechaaplicacion) VALUES (?, ?, ?) - (1, Parvovirosis, 2011-10-04)
+Feb 14 00:49:33 symfony [info] {sfFrontWebController} Redirect to "http://localhost/petshealth/web/frontend_dev.php/vacuna/edit/id/3"
+Feb 14 00:49:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 14 00:49:33 symfony [info] {sfWebResponse} Send header "Location: http://localhost/petshealth/web/frontend_dev.php/vacuna/edit/id/3"
+Feb 14 00:49:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (8)
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} Factories 17.61 ms (1)
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} Action "vacuna/create" 33.37 ms (1)
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.05 ms (3)
+Feb 14 00:49:33 symfony [info] {sfWebResponse} Send content (136 o)
+Feb 14 00:49:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /vacuna/edit/id/3 with parameters array (  'module' => 'vacuna',  'action' => 'edit',  'id' => '3',)
+Feb 14 00:49:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:33 symfony [info] {vacunaActions} Call "vacunaActions->executeEdit()"
+Feb 14 00:49:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM vacuna v WHERE (v.id = ?) LIMIT 1 - (3)
+Feb 14 00:49:33 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/editSuccess.php"
+Feb 14 00:49:33 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/_form.php"
+Feb 14 00:49:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:49:33 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:33 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:49:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} Configuration 0.55 ms (9)
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} Factories 14.74 ms (1)
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} Action "vacuna/edit" 25.17 ms (1)
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.67 ms (3)
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/edit" 14.23 ms (1)
+Feb 14 00:49:33 symfony [info] {sfWebDebugLogger} Partial "vacuna/_form" 8.59 ms (1)
+Feb 14 00:49:34 symfony [info] {sfWebResponse} Send content (41822 o)
+Feb 14 00:49:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /vacuna with parameters array (  'module' => 'vacuna',  'action' => 'index',)
+Feb 14 00:49:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:35 symfony [info] {vacunaActions} Call "vacunaActions->executeIndex()"
+Feb 14 00:49:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM vacuna v - ()
+Feb 14 00:49:35 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/indexSuccess.php"
+Feb 14 00:49:35 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:35 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:49:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:49:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:35 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (9)
+Feb 14 00:49:35 symfony [info] {sfWebDebugLogger} Factories 15.74 ms (1)
+Feb 14 00:49:35 symfony [info] {sfWebDebugLogger} Action "vacuna/index" 16.31 ms (1)
+Feb 14 00:49:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.54 ms (2)
+Feb 14 00:49:35 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/index" 7.10 ms (1)
+Feb 14 00:49:35 symfony [info] {sfWebResponse} Send content (32475 o)
+Feb 14 00:49:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:49:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:50 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:49:50 symfony [err] {Doctrine_Exception} Couldn't find class vacunas
+Feb 14 00:49:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:49:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:49:50 symfony [info] {sfWebDebugLogger} Configuration 213.93 ms (10)
+Feb 14 00:49:50 symfony [info] {sfWebDebugLogger} Factories 15.39 ms (1)
+Feb 14 00:49:50 symfony [info] {sfWebDebugLogger} Action "mascota/json" 323.05 ms (1)
+Feb 14 00:49:58 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:49:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:49:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:49:58 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:49:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:49:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, 1)
+Feb 14 00:49:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:49:58 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 00:49:58 symfony [info] {sfWebDebugLogger} Configuration 0.52 ms (8)
+Feb 14 00:49:58 symfony [info] {sfWebDebugLogger} Factories 15.33 ms (1)
+Feb 14 00:49:58 symfony [info] {sfWebDebugLogger} Action "mascota/json" 48.52 ms (1)
+Feb 14 00:49:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.66 ms (2)
+Feb 14 00:49:58 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.00 ms (1)
+Feb 14 00:49:58 symfony [info] {sfWebResponse} Send content (139 o)
+Feb 14 00:50:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:50:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:50:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:50:21 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:50:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:50:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, 1)
+Feb 14 00:50:21 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:50:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:50:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:50:21 symfony [info] {sfWebDebugLogger} Configuration 0.56 ms (8)
+Feb 14 00:50:21 symfony [info] {sfWebDebugLogger} Factories 18.24 ms (1)
+Feb 14 00:50:21 symfony [info] {sfWebDebugLogger} Action "mascota/json" 48.43 ms (1)
+Feb 14 00:50:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.54 ms (2)
+Feb 14 00:50:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:50:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:50:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:50:32 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:50:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:50:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, 1)
+Feb 14 00:50:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:50:32 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 00:50:32 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (8)
+Feb 14 00:50:32 symfony [info] {sfWebDebugLogger} Factories 15.39 ms (1)
+Feb 14 00:50:32 symfony [info] {sfWebDebugLogger} Action "mascota/json" 21.77 ms (1)
+Feb 14 00:50:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.15 ms (2)
+Feb 14 00:50:32 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 00:50:32 symfony [info] {sfWebResponse} Send content (139 o)
+Feb 14 00:50:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:50:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:50:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:50:41 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:50:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:50:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, 1)
+Feb 14 00:50:41 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:50:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:50:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:50:41 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (8)
+Feb 14 00:50:41 symfony [info] {sfWebDebugLogger} Factories 15.25 ms (1)
+Feb 14 00:50:41 symfony [info] {sfWebDebugLogger} Action "mascota/json" 52.97 ms (1)
+Feb 14 00:50:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.21 ms (2)
+Feb 14 00:51:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:51:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:51:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:51:19 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:51:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:51:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, m.id)
+Feb 14 00:51:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:51:19 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 00:51:19 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (8)
+Feb 14 00:51:19 symfony [info] {sfWebDebugLogger} Factories 15.18 ms (1)
+Feb 14 00:51:19 symfony [info] {sfWebDebugLogger} Action "mascota/json" 17.65 ms (1)
+Feb 14 00:51:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.47 ms (2)
+Feb 14 00:51:19 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.00 ms (1)
+Feb 14 00:51:19 symfony [info] {sfWebResponse} Send content (2 o)
+Feb 14 00:51:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:51:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:51:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:51:22 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:51:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:51:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, m.id)
+Feb 14 00:51:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:51:22 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 00:51:22 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (8)
+Feb 14 00:51:22 symfony [info] {sfWebDebugLogger} Factories 15.07 ms (1)
+Feb 14 00:51:22 symfony [info] {sfWebDebugLogger} Action "mascota/json" 17.96 ms (1)
+Feb 14 00:51:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.54 ms (2)
+Feb 14 00:51:22 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.00 ms (1)
+Feb 14 00:51:22 symfony [info] {sfWebResponse} Send content (2 o)
+Feb 14 00:51:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:51:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:51:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:51:36 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:51:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:51:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = m.id) GROUP BY m.id - (1)
+Feb 14 00:51:36 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:51:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:51:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:51:36 symfony [info] {sfWebDebugLogger} Configuration 0.45 ms (8)
+Feb 14 00:51:36 symfony [info] {sfWebDebugLogger} Factories 14.45 ms (1)
+Feb 14 00:51:36 symfony [info] {sfWebDebugLogger} Action "mascota/json" 48.15 ms (1)
+Feb 14 00:51:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.91 ms (2)
+Feb 14 00:51:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:51:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:51:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:51:44 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:51:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:51:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = m.id) GROUP BY m.id - (1)
+Feb 14 00:51:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:51:44 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 00:51:44 symfony [info] {sfWebDebugLogger} Configuration 0.47 ms (8)
+Feb 14 00:51:44 symfony [info] {sfWebDebugLogger} Factories 14.98 ms (1)
+Feb 14 00:51:44 symfony [info] {sfWebDebugLogger} Action "mascota/json" 17.86 ms (1)
+Feb 14 00:51:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.46 ms (2)
+Feb 14 00:51:44 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.00 ms (1)
+Feb 14 00:51:44 symfony [info] {sfWebResponse} Send content (139 o)
+Feb 14 00:51:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:51:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:51:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:51:52 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:51:52 symfony [err] {Doctrine_Query_Exception} The root class of the query (alias m)  must have at least one field selected.
+Feb 14 00:51:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:51:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:51:52 symfony [info] {sfWebDebugLogger} Configuration 0.45 ms (8)
+Feb 14 00:51:52 symfony [info] {sfWebDebugLogger} Factories 14.56 ms (1)
+Feb 14 00:51:52 symfony [info] {sfWebDebugLogger} Action "mascota/json" 154.85 ms (1)
+Feb 14 00:52:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:52:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:02 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:52:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.nombre AS m__nombre, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = m.id) GROUP BY m.id - (1)
+Feb 14 00:52:02 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:52:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:52:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:02 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (8)
+Feb 14 00:52:02 symfony [info] {sfWebDebugLogger} Factories 15.03 ms (1)
+Feb 14 00:52:02 symfony [info] {sfWebDebugLogger} Action "mascota/json" 46.51 ms (1)
+Feb 14 00:52:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.49 ms (2)
+Feb 14 00:52:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alergia with parameters array (  'module' => 'alergia',  'action' => 'index',)
+Feb 14 00:52:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:24 symfony [info] {alergiaActions} Call "alergiaActions->executeIndex()"
+Feb 14 00:52:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM alergia a - ()
+Feb 14 00:52:24 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/alergia/templates/indexSuccess.php"
+Feb 14 00:52:24 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:24 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:52:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:24 symfony [info] {sfWebDebugLogger} Configuration 13.84 ms (10)
+Feb 14 00:52:24 symfony [info] {sfWebDebugLogger} Factories 15.31 ms (1)
+Feb 14 00:52:24 symfony [info] {sfWebDebugLogger} Action "alergia/index" 32.17 ms (1)
+Feb 14 00:52:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 17.12 ms (2)
+Feb 14 00:52:24 symfony [info] {sfWebDebugLogger} View "Success" for "alergia/index" 7.05 ms (1)
+Feb 14 00:52:24 symfony [info] {sfWebResponse} Send content (31700 o)
+Feb 14 00:52:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /alergia/new with parameters array (  'module' => 'alergia',  'action' => 'new',)
+Feb 14 00:52:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:26 symfony [info] {alergiaActions} Call "alergiaActions->executeNew()"
+Feb 14 00:52:26 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/alergia/templates/newSuccess.php"
+Feb 14 00:52:26 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/alergia/templates/_form.php"
+Feb 14 00:52:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:52:26 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:26 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:52:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:26 symfony [info] {sfWebDebugLogger} Configuration 0.65 ms (9)
+Feb 14 00:52:26 symfony [info] {sfWebDebugLogger} Factories 15.21 ms (1)
+Feb 14 00:52:26 symfony [info] {sfWebDebugLogger} Action "alergia/new" 12.28 ms (1)
+Feb 14 00:52:26 symfony [info] {sfWebDebugLogger} View "Success" for "alergia/new" 26.81 ms (1)
+Feb 14 00:52:26 symfony [info] {sfWebDebugLogger} Partial "alergia/_form" 20.12 ms (1)
+Feb 14 00:52:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.35 ms (2)
+Feb 14 00:52:26 symfony [info] {sfWebResponse} Send content (36659 o)
+Feb 14 00:52:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /alergia/create with parameters array (  'module' => 'alergia',  'action' => 'create',)
+Feb 14 00:52:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:31 symfony [info] {alergiaActions} Call "alergiaActions->executeCreate()"
+Feb 14 00:52:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM mascota m WHERE m.id = ? - (1)
+Feb 14 00:52:31 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO alergia (mascota_id, alergia) VALUES (?, ?) - (1, Penicilina)
+Feb 14 00:52:31 symfony [info] {sfFrontWebController} Redirect to "http://localhost/petshealth/web/frontend_dev.php/alergia/edit/id/1"
+Feb 14 00:52:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 14 00:52:31 symfony [info] {sfWebResponse} Send header "Location: http://localhost/petshealth/web/frontend_dev.php/alergia/edit/id/1"
+Feb 14 00:52:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} Configuration 0.52 ms (8)
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} Factories 15.41 ms (1)
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} Action "alergia/create" 31.99 ms (1)
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.32 ms (3)
+Feb 14 00:52:31 symfony [info] {sfWebResponse} Send content (137 o)
+Feb 14 00:52:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /alergia/edit/id/1 with parameters array (  'module' => 'alergia',  'action' => 'edit',  'id' => '1',)
+Feb 14 00:52:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:31 symfony [info] {alergiaActions} Call "alergiaActions->executeEdit()"
+Feb 14 00:52:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM alergia a WHERE (a.id = ?) LIMIT 1 - (1)
+Feb 14 00:52:31 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/alergia/templates/editSuccess.php"
+Feb 14 00:52:31 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/alergia/templates/_form.php"
+Feb 14 00:52:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:52:31 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:31 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:52:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} Configuration 0.59 ms (9)
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} Factories 15.53 ms (1)
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} Action "alergia/edit" 24.54 ms (1)
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.99 ms (3)
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} View "Success" for "alergia/edit" 16.11 ms (1)
+Feb 14 00:52:31 symfony [info] {sfWebDebugLogger} Partial "alergia/_form" 10.06 ms (1)
+Feb 14 00:52:31 symfony [info] {sfWebResponse} Send content (39065 o)
+Feb 14 00:52:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alergia with parameters array (  'module' => 'alergia',  'action' => 'index',)
+Feb 14 00:52:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:35 symfony [info] {alergiaActions} Call "alergiaActions->executeIndex()"
+Feb 14 00:52:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM alergia a - ()
+Feb 14 00:52:35 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/alergia/templates/indexSuccess.php"
+Feb 14 00:52:35 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:35 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:52:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:35 symfony [info] {sfWebDebugLogger} Configuration 0.60 ms (9)
+Feb 14 00:52:35 symfony [info] {sfWebDebugLogger} Factories 15.24 ms (1)
+Feb 14 00:52:35 symfony [info] {sfWebDebugLogger} Action "alergia/index" 15.33 ms (1)
+Feb 14 00:52:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.52 ms (2)
+Feb 14 00:52:35 symfony [info] {sfWebDebugLogger} View "Success" for "alergia/index" 6.07 ms (1)
+Feb 14 00:52:35 symfony [info] {sfWebResponse} Send content (31942 o)
+Feb 14 00:52:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /enfermedad with parameters array (  'module' => 'enfermedad',  'action' => 'index',)
+Feb 14 00:52:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:42 symfony [info] {enfermedadActions} Call "enfermedadActions->executeIndex()"
+Feb 14 00:52:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e - ()
+Feb 14 00:52:42 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/indexSuccess.php"
+Feb 14 00:52:42 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:42 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:52:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:42 symfony [info] {sfWebDebugLogger} Configuration 11.74 ms (10)
+Feb 14 00:52:42 symfony [info] {sfWebDebugLogger} Factories 15.34 ms (1)
+Feb 14 00:52:42 symfony [info] {sfWebDebugLogger} Action "enfermedad/index" 18.35 ms (1)
+Feb 14 00:52:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 3.39 ms (2)
+Feb 14 00:52:42 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/index" 7.55 ms (1)
+Feb 14 00:52:42 symfony [info] {sfWebResponse} Send content (32103 o)
+Feb 14 00:52:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/new with parameters array (  'module' => 'enfermedad',  'action' => 'new',)
+Feb 14 00:52:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:44 symfony [info] {enfermedadActions} Call "enfermedadActions->executeNew()"
+Feb 14 00:52:44 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/newSuccess.php"
+Feb 14 00:52:44 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/_form.php"
+Feb 14 00:52:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:52:44 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:44 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:52:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:44 symfony [info] {sfWebDebugLogger} Configuration 0.65 ms (9)
+Feb 14 00:52:44 symfony [info] {sfWebDebugLogger} Factories 15.75 ms (1)
+Feb 14 00:52:44 symfony [info] {sfWebDebugLogger} Action "enfermedad/new" 13.83 ms (1)
+Feb 14 00:52:44 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/new" 23.39 ms (1)
+Feb 14 00:52:44 symfony [info] {sfWebDebugLogger} Partial "enfermedad/_form" 17.50 ms (1)
+Feb 14 00:52:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.34 ms (2)
+Feb 14 00:52:44 symfony [info] {sfWebResponse} Send content (40027 o)
+Feb 14 00:52:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/create with parameters array (  'module' => 'enfermedad',  'action' => 'create',)
+Feb 14 00:52:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:56 symfony [info] {enfermedadActions} Call "enfermedadActions->executeCreate()"
+Feb 14 00:52:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM mascota m WHERE m.id = ? - (1)
+Feb 14 00:52:56 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO enfermedad (mascota_id, enfermedad, tratamiento) VALUES (?, ?, ?) - (1, pulgas, se le quitó con medicinas)
+Feb 14 00:52:56 symfony [info] {sfFrontWebController} Redirect to "http://localhost/petshealth/web/frontend_dev.php/enfermedad/edit/id/1"
+Feb 14 00:52:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 14 00:52:56 symfony [info] {sfWebResponse} Send header "Location: http://localhost/petshealth/web/frontend_dev.php/enfermedad/edit/id/1"
+Feb 14 00:52:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (8)
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} Factories 15.76 ms (1)
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} Action "enfermedad/create" 112.92 ms (1)
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 82.34 ms (3)
+Feb 14 00:52:56 symfony [info] {sfWebResponse} Send content (140 o)
+Feb 14 00:52:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/edit/id/1 with parameters array (  'module' => 'enfermedad',  'action' => 'edit',  'id' => '1',)
+Feb 14 00:52:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:56 symfony [info] {enfermedadActions} Call "enfermedadActions->executeEdit()"
+Feb 14 00:52:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e WHERE (e.id = ?) LIMIT 1 - (1)
+Feb 14 00:52:56 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/editSuccess.php"
+Feb 14 00:52:56 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/_form.php"
+Feb 14 00:52:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 00:52:56 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:56 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:52:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} Configuration 0.56 ms (9)
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} Factories 14.97 ms (1)
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} Action "enfermedad/edit" 26.31 ms (1)
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.93 ms (3)
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/edit" 22.38 ms (1)
+Feb 14 00:52:56 symfony [info] {sfWebDebugLogger} Partial "enfermedad/_form" 14.37 ms (1)
+Feb 14 00:52:56 symfony [info] {sfWebResponse} Send content (42741 o)
+Feb 14 00:52:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /enfermedad with parameters array (  'module' => 'enfermedad',  'action' => 'index',)
+Feb 14 00:52:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:52:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:52:57 symfony [info] {enfermedadActions} Call "enfermedadActions->executeIndex()"
+Feb 14 00:52:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:52:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e - ()
+Feb 14 00:52:57 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/indexSuccess.php"
+Feb 14 00:52:57 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:57 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:52:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:52:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:52:57 symfony [info] {sfWebDebugLogger} Configuration 0.69 ms (9)
+Feb 14 00:52:57 symfony [info] {sfWebDebugLogger} Factories 17.27 ms (1)
+Feb 14 00:52:57 symfony [info] {sfWebDebugLogger} Action "enfermedad/index" 14.90 ms (1)
+Feb 14 00:52:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.38 ms (2)
+Feb 14 00:52:57 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/index" 6.85 ms (1)
+Feb 14 00:52:57 symfony [info] {sfWebResponse} Send content (32404 o)
+Feb 14 00:53:27 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /enfermedad with parameters array (  'module' => 'enfermedad',  'action' => 'index',)
+Feb 14 00:53:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:53:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:53:27 symfony [info] {enfermedadActions} Call "enfermedadActions->executeIndex()"
+Feb 14 00:53:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:53:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e - ()
+Feb 14 00:53:27 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/indexSuccess.php"
+Feb 14 00:53:27 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:53:27 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 00:53:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:53:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:53:27 symfony [info] {sfWebDebugLogger} Configuration 0.55 ms (9)
+Feb 14 00:53:27 symfony [info] {sfWebDebugLogger} Factories 14.54 ms (1)
+Feb 14 00:53:27 symfony [info] {sfWebDebugLogger} Action "enfermedad/index" 15.38 ms (1)
+Feb 14 00:53:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.68 ms (2)
+Feb 14 00:53:27 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/index" 6.01 ms (1)
+Feb 14 00:53:27 symfony [info] {sfWebResponse} Send content (32436 o)
+Feb 14 00:53:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:53:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:53:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:53:31 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:53:32 symfony [err] {Doctrine_Query_Exception} Unknown column nombre
+Feb 14 00:53:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:53:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:53:32 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (8)
+Feb 14 00:53:32 symfony [info] {sfWebDebugLogger} Factories 15.67 ms (1)
+Feb 14 00:53:32 symfony [info] {sfWebDebugLogger} Action "mascota/json" 82.06 ms (1)
+Feb 14 00:53:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:53:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:53:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:53:41 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:53:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:53:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = m.id) GROUP BY m.id - (1)
+Feb 14 00:53:41 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:53:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:53:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:53:41 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (8)
+Feb 14 00:53:41 symfony [info] {sfWebDebugLogger} Factories 14.83 ms (1)
+Feb 14 00:53:41 symfony [info] {sfWebDebugLogger} Action "mascota/json" 47.86 ms (1)
+Feb 14 00:53:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.79 ms (2)
+Feb 14 00:54:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:54:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:54:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:54:47 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:54:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:54:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m, vacuna v WHERE (m.id = ? AND m.id = v.mascota_id) GROUP BY m.id - (1)
+Feb 14 00:54:47 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:54:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:54:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:54:47 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (8)
+Feb 14 00:54:47 symfony [info] {sfWebDebugLogger} Factories 15.11 ms (1)
+Feb 14 00:54:47 symfony [info] {sfWebDebugLogger} Action "mascota/json" 50.69 ms (1)
+Feb 14 00:54:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.84 ms (2)
+Feb 14 00:54:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:54:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:54:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:54:49 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:54:49 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:54:49 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m, vacuna v WHERE (m.id = ? AND m.id = v.mascota_id) GROUP BY m.id - (1)
+Feb 14 00:54:49 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:54:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:54:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:54:49 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (8)
+Feb 14 00:54:49 symfony [info] {sfWebDebugLogger} Factories 15.00 ms (1)
+Feb 14 00:54:49 symfony [info] {sfWebDebugLogger} Action "mascota/json" 47.21 ms (1)
+Feb 14 00:54:49 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.68 ms (2)
+Feb 14 00:55:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:55:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:55:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:55:19 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:55:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:55:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, 1)
+Feb 14 00:55:19 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:55:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:55:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:55:19 symfony [info] {sfWebDebugLogger} Configuration 0.52 ms (8)
+Feb 14 00:55:19 symfony [info] {sfWebDebugLogger} Factories 15.16 ms (1)
+Feb 14 00:55:19 symfony [info] {sfWebDebugLogger} Action "mascota/json" 47.57 ms (1)
+Feb 14 00:55:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.78 ms (2)
+Feb 14 00:55:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:55:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:55:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:55:21 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:55:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:55:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, 1)
+Feb 14 00:55:21 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:55:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:55:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:55:21 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (8)
+Feb 14 00:55:21 symfony [info] {sfWebDebugLogger} Factories 15.32 ms (1)
+Feb 14 00:55:21 symfony [info] {sfWebDebugLogger} Action "mascota/json" 47.11 ms (1)
+Feb 14 00:55:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.67 ms (2)
+Feb 14 00:55:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:55:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:55:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:55:21 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:55:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:55:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, 1)
+Feb 14 00:55:21 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:55:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:55:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:55:21 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (8)
+Feb 14 00:55:21 symfony [info] {sfWebDebugLogger} Factories 14.92 ms (1)
+Feb 14 00:55:21 symfony [info] {sfWebDebugLogger} Action "mascota/json" 47.04 ms (1)
+Feb 14 00:55:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.59 ms (2)
+Feb 14 00:55:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:55:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:55:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:55:22 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:55:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:55:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m, vacuna v WHERE (m.id = ? AND v.mascota_id = ?) GROUP BY m.id - (1, 1)
+Feb 14 00:55:22 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 00:55:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:55:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:55:22 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (8)
+Feb 14 00:55:22 symfony [info] {sfWebDebugLogger} Factories 15.25 ms (1)
+Feb 14 00:55:22 symfony [info] {sfWebDebugLogger} Action "mascota/json" 45.89 ms (1)
+Feb 14 00:55:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.48 ms (2)
+Feb 14 00:57:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:57:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:57:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:57:31 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:57:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 00:57:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 00:57:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 00:57:31 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 00:57:31 symfony [info] {sfWebDebugLogger} Configuration 0.53 ms (8)
+Feb 14 00:57:31 symfony [info] {sfWebDebugLogger} Factories 15.77 ms (1)
+Feb 14 00:57:31 symfony [info] {sfWebDebugLogger} Action "mascota/json" 19.30 ms (1)
+Feb 14 00:57:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.69 ms (2)
+Feb 14 00:57:31 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.00 ms (1)
+Feb 14 00:57:31 symfony [info] {sfWebResponse} Send content (207 o)
+Feb 14 00:59:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:59:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:59:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:59:54 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:59:54 symfony [err] {Doctrine_Table_Exception} Unknown relation alias vacuna
+Feb 14 00:59:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:59:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:59:54 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (8)
+Feb 14 00:59:54 symfony [info] {sfWebDebugLogger} Factories 55.63 ms (1)
+Feb 14 00:59:54 symfony [info] {sfWebDebugLogger} Action "mascota/json" 331.75 ms (1)
+Feb 14 00:59:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 00:59:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 00:59:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 00:59:55 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 00:59:55 symfony [err] {Doctrine_Table_Exception} Unknown relation alias vacuna
+Feb 14 00:59:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 00:59:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 00:59:55 symfony [info] {sfWebDebugLogger} Configuration 1.76 ms (8)
+Feb 14 00:59:55 symfony [info] {sfWebDebugLogger} Factories 54.59 ms (1)
+Feb 14 00:59:55 symfony [info] {sfWebDebugLogger} Action "mascota/json" 328.12 ms (1)
+Feb 14 01:00:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:00:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:00:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:00:02 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:00:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:00:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:00:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:00:02 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:00:02 symfony [info] {sfWebDebugLogger} Configuration 1.76 ms (8)
+Feb 14 01:00:02 symfony [info] {sfWebDebugLogger} Factories 55.77 ms (1)
+Feb 14 01:00:02 symfony [info] {sfWebDebugLogger} Action "mascota/json" 69.71 ms (1)
+Feb 14 01:00:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.96 ms (2)
+Feb 14 01:00:02 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:00:02 symfony [info] {sfWebResponse} Send content (207 o)
+Feb 14 01:00:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:00:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:00:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:00:27 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:00:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:00:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:00:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:00:27 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:00:27 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (8)
+Feb 14 01:00:27 symfony [info] {sfWebDebugLogger} Factories 54.38 ms (1)
+Feb 14 01:00:27 symfony [info] {sfWebDebugLogger} Action "mascota/json" 64.64 ms (1)
+Feb 14 01:00:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.51 ms (2)
+Feb 14 01:00:27 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:00:27 symfony [info] {sfWebResponse} Send content (139 o)
+Feb 14 01:00:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:00:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:00:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:00:34 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:00:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:00:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__0, v.vacuna AS v__0 FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:00:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:00:34 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:00:34 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (8)
+Feb 14 01:00:34 symfony [info] {sfWebDebugLogger} Factories 54.08 ms (1)
+Feb 14 01:00:34 symfony [info] {sfWebDebugLogger} Action "mascota/json" 64.99 ms (1)
+Feb 14 01:00:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.58 ms (2)
+Feb 14 01:00:34 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:00:34 symfony [info] {sfWebResponse} Send content (207 o)
+Feb 14 01:00:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:00:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:00:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:00:45 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:00:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:00:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:00:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:00:45 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:00:45 symfony [info] {sfWebDebugLogger} Configuration 1.71 ms (8)
+Feb 14 01:00:45 symfony [info] {sfWebDebugLogger} Factories 54.73 ms (1)
+Feb 14 01:00:45 symfony [info] {sfWebDebugLogger} Action "mascota/json" 66.06 ms (1)
+Feb 14 01:00:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.51 ms (2)
+Feb 14 01:00:45 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:00:45 symfony [info] {sfWebResponse} Send content (184 o)
+Feb 14 01:02:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /vacuna with parameters array (  'module' => 'vacuna',  'action' => 'index',)
+Feb 14 01:02:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:02:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:02:01 symfony [info] {vacunaActions} Call "vacunaActions->executeIndex()"
+Feb 14 01:02:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:02:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM vacuna v - ()
+Feb 14 01:02:01 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/indexSuccess.php"
+Feb 14 01:02:01 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:02:01 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:02:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:02:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:02:01 symfony [info] {sfWebDebugLogger} Configuration 2.00 ms (9)
+Feb 14 01:02:01 symfony [info] {sfWebDebugLogger} Factories 55.20 ms (1)
+Feb 14 01:02:01 symfony [info] {sfWebDebugLogger} Action "vacuna/index" 62.44 ms (1)
+Feb 14 01:02:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.17 ms (2)
+Feb 14 01:02:01 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/index" 25.74 ms (1)
+Feb 14 01:02:01 symfony [info] {sfWebResponse} Send content (32384 o)
+Feb 14 01:02:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:02:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:02:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:02:25 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:02:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:02:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:02:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:02:25 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:02:25 symfony [info] {sfWebDebugLogger} Configuration 2.05 ms (8)
+Feb 14 01:02:25 symfony [info] {sfWebDebugLogger} Factories 57.41 ms (1)
+Feb 14 01:02:25 symfony [info] {sfWebDebugLogger} Action "mascota/json" 69.58 ms (1)
+Feb 14 01:02:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.97 ms (2)
+Feb 14 01:02:25 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.02 ms (1)
+Feb 14 01:02:25 symfony [info] {sfWebResponse} Send content (184 o)
+Feb 14 01:03:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:03:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:03:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:03:52 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:03:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:03:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:03:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:03:52 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:03:52 symfony [info] {sfWebDebugLogger} Configuration 1.74 ms (8)
+Feb 14 01:03:52 symfony [info] {sfWebDebugLogger} Factories 54.95 ms (1)
+Feb 14 01:03:52 symfony [info] {sfWebDebugLogger} Action "mascota/json" 65.40 ms (1)
+Feb 14 01:03:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.63 ms (2)
+Feb 14 01:03:52 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:03:52 symfony [info] {sfWebResponse} Send content (184 o)
+Feb 14 01:03:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:03:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:03:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:03:56 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:03:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:03:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuns AS v__vacuns FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:03:56 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.vacuns' in 'field list'
+Feb 14 01:03:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 01:03:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:03:56 symfony [info] {sfWebDebugLogger} Configuration 1.69 ms (8)
+Feb 14 01:03:56 symfony [info] {sfWebDebugLogger} Factories 54.34 ms (1)
+Feb 14 01:03:56 symfony [info] {sfWebDebugLogger} Action "mascota/json" 219.02 ms (1)
+Feb 14 01:03:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.34 ms (1)
+Feb 14 01:04:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:04:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:04:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:04:05 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:04:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:04:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:04:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:04:05 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:04:05 symfony [info] {sfWebDebugLogger} Configuration 1.80 ms (8)
+Feb 14 01:04:05 symfony [info] {sfWebDebugLogger} Factories 55.23 ms (1)
+Feb 14 01:04:05 symfony [info] {sfWebDebugLogger} Action "mascota/json" 68.03 ms (1)
+Feb 14 01:04:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.62 ms (2)
+Feb 14 01:04:05 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:04:05 symfony [info] {sfWebResponse} Send content (232 o)
+Feb 14 01:05:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:05:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:05:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:05:59 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:05:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:05:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:05:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:05:59 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:05:59 symfony [info] {sfWebDebugLogger} Configuration 1.73 ms (8)
+Feb 14 01:05:59 symfony [info] {sfWebDebugLogger} Factories 57.65 ms (1)
+Feb 14 01:05:59 symfony [info] {sfWebDebugLogger} Action "mascota/json" 65.60 ms (1)
+Feb 14 01:05:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.61 ms (2)
+Feb 14 01:05:59 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:05:59 symfony [info] {sfWebResponse} Send content (232 o)
+Feb 14 01:06:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:06:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:06:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:06:00 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:06:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:06:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:06:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:06:01 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Configuration 1.77 ms (8)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Factories 55.83 ms (1)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Action "mascota/json" 67.48 ms (1)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.69 ms (2)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:06:01 symfony [info] {sfWebResponse} Send content (232 o)
+Feb 14 01:06:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:06:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:06:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:06:01 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:06:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:06:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:06:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:06:01 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Configuration 1.84 ms (8)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Factories 56.03 ms (1)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Action "mascota/json" 69.23 ms (1)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.00 ms (2)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:06:01 symfony [info] {sfWebResponse} Send content (232 o)
+Feb 14 01:06:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:06:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:06:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:06:01 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:06:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:06:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:06:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:06:01 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Configuration 1.80 ms (8)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Factories 55.84 ms (1)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Action "mascota/json" 71.02 ms (1)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.60 ms (2)
+Feb 14 01:06:01 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:06:01 symfony [info] {sfWebResponse} Send content (232 o)
+Feb 14 01:07:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:07:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:07:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:07:09 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:07:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:07:09 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m, vacuna v WHERE (m.id = ? AND m.id = v.mascota_id) GROUP BY m.id - (1)
+Feb 14 01:07:09 symfony [err] {Doctrine_Hydrator_Exception} "Vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 01:07:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 01:07:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:07:09 symfony [info] {sfWebDebugLogger} Configuration 1.69 ms (8)
+Feb 14 01:07:09 symfony [info] {sfWebDebugLogger} Factories 54.42 ms (1)
+Feb 14 01:07:09 symfony [info] {sfWebDebugLogger} Action "mascota/json" 169.77 ms (1)
+Feb 14 01:07:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.57 ms (2)
+Feb 14 01:07:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:07:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:07:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:07:18 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:07:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:07:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM mascota m, vacuna v WHERE (m.id = ? AND m.id = v.mascota_id) GROUP BY m.id - (1)
+Feb 14 01:07:18 symfony [err] {Doctrine_Hydrator_Exception} "vacuna" with an alias of "v" in your query does not reference the parent component it is related to.
+Feb 14 01:07:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Feb 14 01:07:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:07:19 symfony [info] {sfWebDebugLogger} Configuration 1.71 ms (8)
+Feb 14 01:07:19 symfony [info] {sfWebDebugLogger} Factories 54.28 ms (1)
+Feb 14 01:07:19 symfony [info] {sfWebDebugLogger} Action "mascota/json" 168.42 ms (1)
+Feb 14 01:07:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.52 ms (2)
+Feb 14 01:08:27 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /vacuna with parameters array (  'module' => 'vacuna',  'action' => 'index',)
+Feb 14 01:08:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:08:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:08:27 symfony [info] {vacunaActions} Call "vacunaActions->executeIndex()"
+Feb 14 01:08:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:08:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion FROM vacuna v - ()
+Feb 14 01:08:28 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/vacuna/templates/indexSuccess.php"
+Feb 14 01:08:28 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:08:28 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:08:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:08:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:08:28 symfony [info] {sfWebDebugLogger} Configuration 1.96 ms (9)
+Feb 14 01:08:28 symfony [info] {sfWebDebugLogger} Factories 54.30 ms (1)
+Feb 14 01:08:28 symfony [info] {sfWebDebugLogger} Action "vacuna/index" 54.17 ms (1)
+Feb 14 01:08:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.17 ms (2)
+Feb 14 01:08:28 symfony [info] {sfWebDebugLogger} View "Success" for "vacuna/index" 24.96 ms (1)
+Feb 14 01:08:28 symfony [info] {sfWebResponse} Send content (32416 o)
+Feb 14 01:08:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:08:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:08:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:08:30 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:08:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:08:30 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha, a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:08:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:08:30 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:08:30 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (8)
+Feb 14 01:08:30 symfony [info] {sfWebDebugLogger} Factories 53.88 ms (1)
+Feb 14 01:08:30 symfony [info] {sfWebDebugLogger} Action "mascota/json" 72.77 ms (1)
+Feb 14 01:08:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.04 ms (2)
+Feb 14 01:08:30 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:08:30 symfony [info] {sfWebResponse} Send content (420 o)
+Feb 14 01:09:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /enfermedad with parameters array (  'module' => 'enfermedad',  'action' => 'index',)
+Feb 14 01:09:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:09:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:09:07 symfony [info] {enfermedadActions} Call "enfermedadActions->executeIndex()"
+Feb 14 01:09:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:09:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e - ()
+Feb 14 01:09:07 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/indexSuccess.php"
+Feb 14 01:09:07 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:09:07 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:09:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:09:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:09:07 symfony [info] {sfWebDebugLogger} Configuration 2.05 ms (9)
+Feb 14 01:09:07 symfony [info] {sfWebDebugLogger} Factories 55.02 ms (1)
+Feb 14 01:09:07 symfony [info] {sfWebDebugLogger} Action "enfermedad/index" 53.90 ms (1)
+Feb 14 01:09:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.17 ms (2)
+Feb 14 01:09:07 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/index" 22.83 ms (1)
+Feb 14 01:09:07 symfony [info] {sfWebResponse} Send content (32308 o)
+Feb 14 01:09:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/new with parameters array (  'module' => 'enfermedad',  'action' => 'new',)
+Feb 14 01:09:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:09:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:09:09 symfony [info] {enfermedadActions} Call "enfermedadActions->executeNew()"
+Feb 14 01:09:09 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/newSuccess.php"
+Feb 14 01:09:09 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/_form.php"
+Feb 14 01:09:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:09:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 01:09:09 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:09:09 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:09:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:09:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:09:09 symfony [info] {sfWebDebugLogger} Configuration 2.01 ms (9)
+Feb 14 01:09:09 symfony [info] {sfWebDebugLogger} Factories 54.00 ms (1)
+Feb 14 01:09:09 symfony [info] {sfWebDebugLogger} Action "enfermedad/new" 47.66 ms (1)
+Feb 14 01:09:09 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/new" 78.97 ms (1)
+Feb 14 01:09:09 symfony [info] {sfWebDebugLogger} Partial "enfermedad/_form" 60.52 ms (1)
+Feb 14 01:09:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.08 ms (2)
+Feb 14 01:09:09 symfony [info] {sfWebResponse} Send content (40028 o)
+Feb 14 01:09:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/create with parameters array (  'module' => 'enfermedad',  'action' => 'create',)
+Feb 14 01:09:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:09:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:09:52 symfony [info] {enfermedadActions} Call "enfermedadActions->executeCreate()"
+Feb 14 01:09:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:09:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM mascota m WHERE m.id = ? - (1)
+Feb 14 01:09:52 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO enfermedad (mascota_id, enfermedad, tratamiento, fecha) VALUES (?, ?, ?, ?) - (1, Mal de ojo, Le tuvimos que poner un collar de ajos para que se calmara, 2011-01-01)
+Feb 14 01:09:53 symfony [info] {sfFrontWebController} Redirect to "http://localhost/petshealth/web/frontend_dev.php/enfermedad/edit/id/2"
+Feb 14 01:09:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 14 01:09:53 symfony [info] {sfWebResponse} Send header "Location: http://localhost/petshealth/web/frontend_dev.php/enfermedad/edit/id/2"
+Feb 14 01:09:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (8)
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} Factories 54.87 ms (1)
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} Action "enfermedad/create" 150.27 ms (1)
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.88 ms (3)
+Feb 14 01:09:53 symfony [info] {sfWebResponse} Send content (140 o)
+Feb 14 01:09:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/edit/id/2 with parameters array (  'module' => 'enfermedad',  'action' => 'edit',  'id' => '2',)
+Feb 14 01:09:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:09:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:09:53 symfony [info] {enfermedadActions} Call "enfermedadActions->executeEdit()"
+Feb 14 01:09:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:09:53 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e WHERE (e.id = ?) LIMIT 1 - (2)
+Feb 14 01:09:53 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/editSuccess.php"
+Feb 14 01:09:53 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/_form.php"
+Feb 14 01:09:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 01:09:53 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:09:53 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:09:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:09:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} Configuration 1.95 ms (9)
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} Factories 54.31 ms (1)
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} Action "enfermedad/edit" 90.86 ms (1)
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.16 ms (3)
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/edit" 50.15 ms (1)
+Feb 14 01:09:53 symfony [info] {sfWebDebugLogger} Partial "enfermedad/_form" 31.05 ms (1)
+Feb 14 01:09:53 symfony [info] {sfWebResponse} Send content (42778 o)
+Feb 14 01:09:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:09:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:09:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:09:55 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:09:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:09:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha, a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:09:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:09:55 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:09:55 symfony [info] {sfWebDebugLogger} Configuration 1.75 ms (8)
+Feb 14 01:09:55 symfony [info] {sfWebDebugLogger} Factories 54.51 ms (1)
+Feb 14 01:09:55 symfony [info] {sfWebDebugLogger} Action "mascota/json" 72.17 ms (1)
+Feb 14 01:09:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.11 ms (2)
+Feb 14 01:09:55 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:09:55 symfony [info] {sfWebResponse} Send content (420 o)
+Feb 14 01:09:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:09:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:09:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:09:57 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:09:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:09:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha, a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) GROUP BY m.id - (1)
+Feb 14 01:09:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:09:58 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:09:58 symfony [info] {sfWebDebugLogger} Configuration 1.71 ms (8)
+Feb 14 01:09:58 symfony [info] {sfWebDebugLogger} Factories 54.22 ms (1)
+Feb 14 01:09:58 symfony [info] {sfWebDebugLogger} Action "mascota/json" 72.59 ms (1)
+Feb 14 01:09:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.01 ms (2)
+Feb 14 01:09:58 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:09:58 symfony [info] {sfWebResponse} Send content (420 o)
+Feb 14 01:10:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:10:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:10:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:10:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:10:10 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:10:10 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:10:10 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.mascota_id AS v__mascota_id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha, a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) - (1)
+Feb 14 01:10:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:10:10 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:10:10 symfony [info] {sfWebDebugLogger} Configuration 1.79 ms (8)
+Feb 14 01:10:10 symfony [info] {sfWebDebugLogger} Factories 54.87 ms (1)
+Feb 14 01:10:10 symfony [info] {sfWebDebugLogger} Action "mascota/json" 73.71 ms (1)
+Feb 14 01:10:10 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.17 ms (2)
+Feb 14 01:10:10 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:10:10 symfony [info] {sfWebResponse} Send content (733 o)
+Feb 14 01:19:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:19:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:19:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:19:02 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:19:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:19:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha, a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) - (1)
+Feb 14 01:19:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:19:03 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:19:03 symfony [info] {sfWebDebugLogger} Configuration 1.75 ms (8)
+Feb 14 01:19:03 symfony [info] {sfWebDebugLogger} Factories 55.82 ms (1)
+Feb 14 01:19:03 symfony [info] {sfWebDebugLogger} Action "mascota/json" 74.82 ms (1)
+Feb 14 01:19:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.11 ms (2)
+Feb 14 01:19:03 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:19:03 symfony [info] {sfWebResponse} Send content (682 o)
+Feb 14 01:19:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:19:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:19:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:19:36 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:19:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:19:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.enfermedad AS e__enfermedad, a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) - (1)
+Feb 14 01:19:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:19:36 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:19:36 symfony [info] {sfWebDebugLogger} Configuration 1.77 ms (8)
+Feb 14 01:19:36 symfony [info] {sfWebDebugLogger} Factories 55.13 ms (1)
+Feb 14 01:19:36 symfony [info] {sfWebDebugLogger} Action "mascota/json" 72.79 ms (1)
+Feb 14 01:19:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.00 ms (2)
+Feb 14 01:19:36 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:19:36 symfony [info] {sfWebResponse} Send content (492 o)
+Feb 14 01:19:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:19:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:19:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:19:56 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:19:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:19:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) - (1)
+Feb 14 01:19:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:19:57 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:19:57 symfony [info] {sfWebDebugLogger} Configuration 1.87 ms (8)
+Feb 14 01:19:57 symfony [info] {sfWebDebugLogger} Factories 55.19 ms (1)
+Feb 14 01:19:57 symfony [info] {sfWebDebugLogger} Action "mascota/json" 74.58 ms (1)
+Feb 14 01:19:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.04 ms (2)
+Feb 14 01:19:57 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:19:57 symfony [info] {sfWebResponse} Send content (614 o)
+Feb 14 01:20:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alergia with parameters array (  'module' => 'alergia',  'action' => 'index',)
+Feb 14 01:20:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:20:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:20:15 symfony [info] {alergiaActions} Call "alergiaActions->executeIndex()"
+Feb 14 01:20:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:20:15 symfony [info] {Doctrine_Connection_Mysql} query : SELECT a.id AS a__id, a.mascota_id AS a__mascota_id, a.alergia AS a__alergia FROM alergia a - ()
+Feb 14 01:20:15 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/alergia/templates/indexSuccess.php"
+Feb 14 01:20:15 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:20:15 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:20:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:20:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:20:15 symfony [info] {sfWebDebugLogger} Configuration 2.02 ms (9)
+Feb 14 01:20:15 symfony [info] {sfWebDebugLogger} Factories 55.35 ms (1)
+Feb 14 01:20:15 symfony [info] {sfWebDebugLogger} Action "alergia/index" 53.79 ms (1)
+Feb 14 01:20:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.10 ms (2)
+Feb 14 01:20:15 symfony [info] {sfWebDebugLogger} View "Success" for "alergia/index" 22.75 ms (1)
+Feb 14 01:20:15 symfony [info] {sfWebResponse} Send content (31849 o)
+Feb 14 01:20:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:20:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:20:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:20:24 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:20:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:20:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, a.id AS a__id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) - (1)
+Feb 14 01:20:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:20:24 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:20:24 symfony [info] {sfWebDebugLogger} Configuration 1.71 ms (8)
+Feb 14 01:20:24 symfony [info] {sfWebDebugLogger} Factories 54.77 ms (1)
+Feb 14 01:20:24 symfony [info] {sfWebDebugLogger} Action "mascota/json" 73.06 ms (1)
+Feb 14 01:20:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.00 ms (2)
+Feb 14 01:20:24 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:20:24 symfony [info] {sfWebResponse} Send content (597 o)
+Feb 14 01:20:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:20:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:20:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:20:38 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:20:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:20:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, a.id AS a__id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) - (1)
+Feb 14 01:20:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:20:38 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:20:38 symfony [info] {sfWebDebugLogger} Configuration 1.68 ms (8)
+Feb 14 01:20:38 symfony [info] {sfWebDebugLogger} Factories 53.77 ms (1)
+Feb 14 01:20:38 symfony [info] {sfWebDebugLogger} Action "mascota/json" 72.00 ms (1)
+Feb 14 01:20:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.06 ms (2)
+Feb 14 01:20:38 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.01 ms (1)
+Feb 14 01:20:38 symfony [info] {sfWebResponse} Send content (597 o)
+Feb 14 01:22:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /enfermedad with parameters array (  'module' => 'enfermedad',  'action' => 'index',)
+Feb 14 01:22:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:22:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:22:57 symfony [info] {enfermedadActions} Call "enfermedadActions->executeIndex()"
+Feb 14 01:22:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:22:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e - ()
+Feb 14 01:22:57 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/indexSuccess.php"
+Feb 14 01:22:57 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:22:57 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:22:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:22:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:22:57 symfony [info] {sfWebDebugLogger} Configuration 0.59 ms (9)
+Feb 14 01:22:57 symfony [info] {sfWebDebugLogger} Factories 15.11 ms (1)
+Feb 14 01:22:57 symfony [info] {sfWebDebugLogger} Action "enfermedad/index" 15.80 ms (1)
+Feb 14 01:22:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.50 ms (2)
+Feb 14 01:22:57 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/index" 6.30 ms (1)
+Feb 14 01:22:57 symfony [info] {sfWebResponse} Send content (32557 o)
+Feb 14 01:23:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /enfermedad with parameters array (  'module' => 'enfermedad',  'action' => 'index',)
+Feb 14 01:23:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:23:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:23:07 symfony [info] {enfermedadActions} Call "enfermedadActions->executeIndex()"
+Feb 14 01:23:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:23:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e - ()
+Feb 14 01:23:07 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/indexSuccess.php"
+Feb 14 01:23:07 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:23:07 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:23:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:23:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:23:07 symfony [info] {sfWebDebugLogger} Configuration 0.53 ms (9)
+Feb 14 01:23:07 symfony [info] {sfWebDebugLogger} Factories 15.01 ms (1)
+Feb 14 01:23:07 symfony [info] {sfWebDebugLogger} Action "enfermedad/index" 15.51 ms (1)
+Feb 14 01:23:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.54 ms (2)
+Feb 14 01:23:07 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/index" 6.57 ms (1)
+Feb 14 01:23:07 symfony [info] {sfWebResponse} Send content (32589 o)
+Feb 14 01:23:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:23:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:23:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:23:08 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:23:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:23:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha, a.id AS a__id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) - (1)
+Feb 14 01:23:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:23:08 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:23:08 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (8)
+Feb 14 01:23:08 symfony [info] {sfWebDebugLogger} Factories 14.73 ms (1)
+Feb 14 01:23:08 symfony [info] {sfWebDebugLogger} Action "mascota/json" 21.78 ms (1)
+Feb 14 01:23:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.07 ms (2)
+Feb 14 01:23:08 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.00 ms (1)
+Feb 14 01:23:08 symfony [info] {sfWebResponse} Send content (631 o)
+Feb 14 01:23:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/show/id/1 with parameters array (  'module' => 'enfermedad',  'action' => 'show',  'id' => '1',)
+Feb 14 01:23:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:23:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:23:21 symfony [info] {enfermedadActions} Call "enfermedadActions->executeShow()"
+Feb 14 01:23:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:23:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e WHERE (e.id = ?) LIMIT 1 - (1)
+Feb 14 01:23:21 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/showSuccess.php"
+Feb 14 01:23:21 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:23:21 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:23:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:23:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:23:21 symfony [info] {sfWebDebugLogger} Configuration 0.59 ms (9)
+Feb 14 01:23:21 symfony [info] {sfWebDebugLogger} Factories 15.49 ms (1)
+Feb 14 01:23:21 symfony [info] {sfWebDebugLogger} Action "enfermedad/show" 17.67 ms (1)
+Feb 14 01:23:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.50 ms (2)
+Feb 14 01:23:21 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/show" 97.13 ms (1)
+Feb 14 01:23:21 symfony [info] {sfWebResponse} Send content (32819 o)
+Feb 14 01:23:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/edit/id/1 with parameters array (  'module' => 'enfermedad',  'action' => 'edit',  'id' => '1',)
+Feb 14 01:23:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:23:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:23:23 symfony [info] {enfermedadActions} Call "enfermedadActions->executeEdit()"
+Feb 14 01:23:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:23:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e WHERE (e.id = ?) LIMIT 1 - (1)
+Feb 14 01:23:23 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/editSuccess.php"
+Feb 14 01:23:23 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/_form.php"
+Feb 14 01:23:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 01:23:23 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:23:23 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:23:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:23:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:23:23 symfony [info] {sfWebDebugLogger} Configuration 0.57 ms (9)
+Feb 14 01:23:23 symfony [info] {sfWebDebugLogger} Factories 15.15 ms (1)
+Feb 14 01:23:23 symfony [info] {sfWebDebugLogger} Action "enfermedad/edit" 25.77 ms (1)
+Feb 14 01:23:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.03 ms (3)
+Feb 14 01:23:23 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/edit" 17.61 ms (1)
+Feb 14 01:23:23 symfony [info] {sfWebDebugLogger} Partial "enfermedad/_form" 12.25 ms (1)
+Feb 14 01:23:23 symfony [info] {sfWebResponse} Send content (42715 o)
+Feb 14 01:23:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/update/id/1 with parameters array (  'module' => 'enfermedad',  'action' => 'update',  'id' => '1',)
+Feb 14 01:23:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:23:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:23:32 symfony [info] {enfermedadActions} Call "enfermedadActions->executeUpdate()"
+Feb 14 01:23:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:23:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e WHERE (e.id = ?) LIMIT 1 - (1)
+Feb 14 01:23:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM mascota m WHERE m.id = ? - (1)
+Feb 14 01:23:32 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE enfermedad SET fecha = ? WHERE id = ? - (2010-07-25, 1)
+Feb 14 01:23:32 symfony [info] {sfFrontWebController} Redirect to "http://localhost/petshealth/web/frontend_dev.php/enfermedad/edit/id/1"
+Feb 14 01:23:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Feb 14 01:23:32 symfony [info] {sfWebResponse} Send header "Location: http://localhost/petshealth/web/frontend_dev.php/enfermedad/edit/id/1"
+Feb 14 01:23:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} Configuration 0.55 ms (8)
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} Factories 15.73 ms (1)
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} Action "enfermedad/update" 34.87 ms (1)
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.13 ms (4)
+Feb 14 01:23:32 symfony [info] {sfWebResponse} Send content (140 o)
+Feb 14 01:23:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /enfermedad/edit/id/1 with parameters array (  'module' => 'enfermedad',  'action' => 'edit',  'id' => '1',)
+Feb 14 01:23:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:23:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:23:32 symfony [info] {enfermedadActions} Call "enfermedadActions->executeEdit()"
+Feb 14 01:23:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:23:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.id AS e__id, e.mascota_id AS e__mascota_id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha FROM enfermedad e WHERE (e.id = ?) LIMIT 1 - (1)
+Feb 14 01:23:32 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/editSuccess.php"
+Feb 14 01:23:32 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/enfermedad/templates/_form.php"
+Feb 14 01:23:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Feb 14 01:23:32 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:23:32 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Feb 14 01:23:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:23:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (9)
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} Factories 15.23 ms (1)
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} Action "enfermedad/edit" 25.00 ms (1)
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.93 ms (3)
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} View "Success" for "enfermedad/edit" 17.68 ms (1)
+Feb 14 01:23:32 symfony [info] {sfWebDebugLogger} Partial "enfermedad/_form" 12.28 ms (1)
+Feb 14 01:23:32 symfony [info] {sfWebResponse} Send content (42747 o)
+Feb 14 01:23:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /mascota/json/id/1 with parameters array (  'module' => 'mascota',  'action' => 'json',  'id' => '1',)
+Feb 14 01:23:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 14 01:23:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 14 01:23:35 symfony [info] {mascotaActions} Call "mascotaActions->executeJson()"
+Feb 14 01:23:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Feb 14 01:23:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo, v.id AS v__id, v.vacuna AS v__vacuna, v.fechaaplicacion AS v__fechaaplicacion, e.id AS e__id, e.enfermedad AS e__enfermedad, e.tratamiento AS e__tratamiento, e.fecha AS e__fecha, a.id AS a__id, a.alergia AS a__alergia FROM mascota m LEFT JOIN vacuna v ON m.id = v.mascota_id LEFT JOIN enfermedad e ON m.id = e.mascota_id LEFT JOIN alergia a ON m.id = a.mascota_id WHERE (m.id = ?) - (1)
+Feb 14 01:23:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 14 01:23:35 symfony [info] {sfWebResponse} Send header "Content-Type: application/json"
+Feb 14 01:23:35 symfony [info] {sfWebDebugLogger} Configuration 0.45 ms (8)
+Feb 14 01:23:35 symfony [info] {sfWebDebugLogger} Factories 14.97 ms (1)
+Feb 14 01:23:35 symfony [info] {sfWebDebugLogger} Action "mascota/json" 20.20 ms (1)
+Feb 14 01:23:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.77 ms (2)
+Feb 14 01:23:35 symfony [info] {sfWebDebugLogger} View "None" for "mascota/json" 0.00 ms (1)
+Feb 14 01:23:35 symfony [info] {sfWebResponse} Send content (639 o)
+Mar 27 09:37:07 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /usuario/delete/id/2 with parameters array (  'module' => 'usuario',  'action' => 'delete',  'id' => '2',)
+Mar 27 09:37:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 27 09:37:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 27 09:37:07 symfony [info] {usuarioActions} Call "usuarioActions->executeDelete()"
+Mar 27 09:37:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 27 09:37:07 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u WHERE (u.id = ?) LIMIT 1 - (2)
+Mar 27 09:37:07 symfony [err] {sfError404Exception} Object usuario does not exist (2).
+Mar 27 09:37:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 27 09:37:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 27 09:37:07 symfony [info] {sfWebDebugLogger} Configuration 22.13 ms (9)
+Mar 27 09:37:07 symfony [info] {sfWebDebugLogger} Factories 101.16 ms (1)
+Mar 27 09:37:07 symfony [info] {sfWebDebugLogger} Action "usuario/delete" 34.64 ms (1)
+Mar 27 09:37:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.37 ms (2)
+Mar 27 09:37:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /usuario/delete/id/1 with parameters array (  'module' => 'usuario',  'action' => 'delete',  'id' => '1',)
+Mar 27 09:37:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 27 09:37:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 27 09:37:14 symfony [info] {usuarioActions} Call "usuarioActions->executeDelete()"
+Mar 27 09:37:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 27 09:37:14 symfony [info] {Doctrine_Connection_Statement} execute : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u WHERE (u.id = ?) LIMIT 1 - (1)
+Mar 27 09:37:14 symfony [info] {Doctrine_Connection_Statement} execute : DELETE FROM usuario WHERE id = ? - (1)
+Mar 27 09:37:14 symfony [info] {sfFrontWebController} Redirect to "http://localhost/petshealth/web/frontend_dev.php/usuario"
+Mar 27 09:37:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 27 09:37:14 symfony [info] {sfWebResponse} Send header "Location: http://localhost/petshealth/web/frontend_dev.php/usuario"
+Mar 27 09:37:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 27 09:37:14 symfony [info] {sfWebDebugLogger} Configuration 0.55 ms (8)
+Mar 27 09:37:14 symfony [info] {sfWebDebugLogger} Factories 18.33 ms (1)
+Mar 27 09:37:14 symfony [info] {sfWebDebugLogger} Action "usuario/delete" 219.26 ms (1)
+Mar 27 09:37:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 63.12 ms (3)
+Mar 27 09:37:14 symfony [info] {sfWebResponse} Send content (127 o)
+Mar 27 09:37:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /usuario with parameters array (  'module' => 'usuario',  'action' => 'index',)
+Mar 27 09:37:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 27 09:37:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 27 09:37:14 symfony [info] {usuarioActions} Call "usuarioActions->executeIndex()"
+Mar 27 09:37:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 27 09:37:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.email AS u__email, u.usuario AS u__usuario, u.password AS u__password, u.version AS u__version, u.mailing AS u__mailing FROM usuario u - ()
+Mar 27 09:37:14 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/usuario/templates/indexSuccess.php"
+Mar 27 09:37:14 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Mar 27 09:37:14 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Mar 27 09:37:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 27 09:37:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 27 09:37:14 symfony [info] {sfWebDebugLogger} Configuration 7.44 ms (10)
+Mar 27 09:37:14 symfony [info] {sfWebDebugLogger} Factories 15.84 ms (1)
+Mar 27 09:37:14 symfony [info] {sfWebDebugLogger} Action "usuario/index" 18.04 ms (1)
+Mar 27 09:37:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.46 ms (2)
+Mar 27 09:37:14 symfony [info] {sfWebDebugLogger} View "Success" for "usuario/index" 22.48 ms (1)
+Mar 27 09:37:14 symfony [info] {sfWebResponse} Send content (32575 o)
+Mar 27 09:37:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /usuario/new with parameters array (  'module' => 'usuario',  'action' => 'new',)
+Mar 27 09:37:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 27 09:37:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 27 09:37:45 symfony [info] {usuarioActions} Call "usuarioActions->executeNew()"
+Mar 27 09:37:45 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/usuario/templates/newSuccess.php"
+Mar 27 09:37:45 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/usuario/templates/_form.php"
+Mar 27 09:37:45 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Mar 27 09:37:45 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Mar 27 09:37:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 27 09:37:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 27 09:37:45 symfony [info] {sfWebDebugLogger} Configuration 0.69 ms (9)
+Mar 27 09:37:45 symfony [info] {sfWebDebugLogger} Factories 18.29 ms (1)
+Mar 27 09:37:45 symfony [info] {sfWebDebugLogger} Action "usuario/new" 461.78 ms (1)
+Mar 27 09:37:45 symfony [info] {sfWebDebugLogger} View "Success" for "usuario/new" 14.26 ms (1)
+Mar 27 09:37:45 symfony [info] {sfWebDebugLogger} Partial "usuario/_form" 4.16 ms (1)
+Mar 27 09:37:45 symfony [info] {sfWebResponse} Send content (35994 o)
+Mar 27 09:38:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /usuario/create/nombre/hibran/email/hola@gmail.com/usuario/user/password/pass123 with parameters array (  'module' => 'usuario',  'action' => 'create',  'nombre' => 'hibran',  'email' => 'hola@gmail.com',  'usuario' => 'user',  'password' => 'pass123',)
+Mar 27 09:38:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 27 09:38:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 27 09:38:39 symfony [info] {usuarioActions} Call "usuarioActions->executeCreate()"
+Mar 27 09:38:39 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "usuario/create".
+Mar 27 09:38:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 27 09:38:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 27 09:38:39 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (8)
+Mar 27 09:38:39 symfony [info] {sfWebDebugLogger} Factories 15.97 ms (1)
+Mar 27 09:38:39 symfony [info] {sfWebDebugLogger} Action "usuario/create" 14.02 ms (1)
+Mar 27 09:38:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /usuario/create/nombre/hibran/email/hola@gmail.com/usuario/user/password/pass123 with parameters array (  'module' => 'usuario',  'action' => 'create',  'nombre' => 'hibran',  'email' => 'hola@gmail.com',  'usuario' => 'user',  'password' => 'pass123',)
+Mar 27 09:38:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 27 09:38:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 27 09:38:54 symfony [info] {usuarioActions} Call "usuarioActions->executeCreate()"
+Mar 27 09:38:54 symfony [err] {sfWebDebugLogger}  Error at /Users/Hibran/Sites/petshealth/lib/vendor/symfony/lib/form/sfForm.class.php on line 203 (Argument 1 passed to sfForm::bind() must be of the type array, string given, called in /Users/Hibran/Sites/petshealth/apps/frontend/modules/usuario/actions/actions.class.php on line 71 and defined)
+Mar 27 09:39:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /usuario/new with parameters array (  'module' => 'usuario',  'action' => 'new',)
+Mar 27 09:39:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 27 09:39:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 27 09:39:19 symfony [info] {usuarioActions} Call "usuarioActions->executeNew()"
+Mar 27 09:39:19 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/usuario/templates/newSuccess.php"
+Mar 27 09:39:19 symfony [info] {sfPartialView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/modules/usuario/templates/_form.php"
+Mar 27 09:39:19 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Mar 27 09:39:19 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth/apps/frontend/templates/layout.php"
+Mar 27 09:39:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 27 09:39:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 27 09:39:19 symfony [info] {sfWebDebugLogger} Configuration 0.57 ms (9)
+Mar 27 09:39:19 symfony [info] {sfWebDebugLogger} Factories 18.23 ms (1)
+Mar 27 09:39:19 symfony [info] {sfWebDebugLogger} Action "usuario/new" 11.69 ms (1)
+Mar 27 09:39:19 symfony [info] {sfWebDebugLogger} View "Success" for "usuario/new" 8.95 ms (1)
+Mar 27 09:39:19 symfony [info] {sfWebDebugLogger} Partial "usuario/_form" 2.68 ms (1)
+Mar 27 09:39:19 symfony [info] {sfWebResponse} Send content (35993 o)
+Apr 28 19:45:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /mascota with parameters array (  'module' => 'mascota',  'action' => 'index',)
+Apr 28 19:45:43 symfony [info] {myUser} Automatic user logout due to timeout
+Apr 28 19:45:43 symfony [info] {myUser} User is not authenticated
+Apr 28 19:45:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 19:45:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 19:45:43 symfony [info] {mascotaActions} Call "mascotaActions->executeIndex()"
+Apr 28 19:45:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 28 19:45:43 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Apr 28 19:45:43 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth_old/apps/frontend/modules/mascota/templates/indexSuccess.php"
+Apr 28 19:45:43 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth_old/apps/frontend/templates/layout.php"
+Apr 28 19:45:43 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth_old/apps/frontend/templates/layout.php"
+Apr 28 19:45:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 19:45:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 19:45:43 symfony [info] {sfWebDebugLogger} Configuration 78.66 ms (9)
+Apr 28 19:45:43 symfony [info] {sfWebDebugLogger} Factories 113.56 ms (1)
+Apr 28 19:45:43 symfony [info] {sfWebDebugLogger} Action "mascota/index" 91.08 ms (1)
+Apr 28 19:45:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.66 ms (2)
+Apr 28 19:45:43 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/index" 68.99 ms (1)
+Apr 28 19:45:43 symfony [info] {sfWebResponse} Send content (33746 o)
+Apr 28 19:48:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /mascota with parameters array (  'module' => 'mascota',  'action' => 'index',)
+Apr 28 19:48:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 19:48:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 19:48:03 symfony [info] {mascotaActions} Call "mascotaActions->executeIndex()"
+Apr 28 19:48:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Apr 28 19:48:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.usuario_id AS m__usuario_id, m.nombre AS m__nombre, m.fechanacimiento AS m__fechanacimiento, m.especie AS m__especie, m.raza AS m__raza, m.tamano AS m__tamano, m.sexo AS m__sexo FROM mascota m - ()
+Apr 28 19:48:03 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth_old/apps/frontend/modules/mascota/templates/indexSuccess.php"
+Apr 28 19:48:03 symfony [info] {sfPHPView} Decorate content with "/Users/Hibran/Sites/petshealth_old/apps/frontend/templates/layout.php"
+Apr 28 19:48:03 symfony [info] {sfPHPView} Render "/Users/Hibran/Sites/petshealth_old/apps/frontend/templates/layout.php"
+Apr 28 19:48:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 19:48:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 19:48:03 symfony [info] {sfWebDebugLogger} Configuration 0.69 ms (9)
+Apr 28 19:48:03 symfony [info] {sfWebDebugLogger} Factories 17.58 ms (1)
+Apr 28 19:48:03 symfony [info] {sfWebDebugLogger} Action "mascota/index" 19.43 ms (1)
+Apr 28 19:48:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.74 ms (2)
+Apr 28 19:48:03 symfony [info] {sfWebDebugLogger} View "Success" for "mascota/index" 7.73 ms (1)
+Apr 28 19:48:03 symfony [info] {sfWebResponse} Send content (32994 o)
